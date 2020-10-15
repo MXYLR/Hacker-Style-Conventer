@@ -47,15 +47,24 @@ def converter(stringList):
             pass
 
         elif stringList[i] == 'i':
-            stringList[i] = "1"
+            if random.randint(0,1):
+                stringList[i] = "!"
+            else:
+                stringList[i] = "1"
             pass
 
         elif stringList[i] == 'I':
-            stringList[i] = "1"
+            if random.randint(0,1):
+                stringList[i] = "!"
+            else:
+                stringList[i] = "1"
             pass
 
         elif stringList[i] == 'l':
-            stringList[i] = "1"
+            if random.randint(0,1):
+                stringList[i] = "!"
+            else:
+                stringList[i] = "1"
             pass
 
         elif stringList[i] == 'o':
